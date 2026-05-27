@@ -1,6 +1,6 @@
 # Remote Codex Bridge
 
-**Run remote science workflows from Codex auto-review mode.** This template is designed so Codex can guide a remote computer through SSH-mediated tasks without requiring Codex to run in full-access mode. Codex stays in its safer auto-review workflow, writes auditable requests to a local bridge, and the bridge worker performs the approved SSH/SCP operations outside the sandbox.
+**Run remote science workflows from local Codex auto-review mode.** This template is designed so local Codex can guide a remote computer through SSH-mediated tasks without requiring Codex to run in full-access mode. Codex stays in its safer auto-review workflow, writes auditable requests to a local bridge, and the bridge worker performs the approved SSH/SCP operations outside the sandbox.
 
 This project provides a reusable workflow for direct remote data processing. It allows local Codex to send engineering task instructions to a remote computer through an SSH bridge. The remote computer reads its own experimental data, runs Python-based data processing and analysis, generates figures or result files, and sends the processed outputs back to the local computer for review and archiving. The method is useful for AI for Science workflows, especially when experimental data are too large or too environment-dependent to move locally, while the user still wants to use Codex for vibe coding, remote task orchestration, code modification, analysis automation, and result retrieval.
 
