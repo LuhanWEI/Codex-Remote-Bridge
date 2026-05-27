@@ -1,0 +1,16 @@
+{
+  "project_name": "remote-codex-bridge-example",
+  "local_project_root": "LOCAL_PROJECT_ROOT",
+  "local_archive_root": "LOCAL_ARCHIVE_ROOT/Remote_Results",
+  "local_python_code_archive_root": "LOCAL_ARCHIVE_ROOT/Python_codes",
+  "remote_host": "REMOTE_HOST",
+  "remote_user": "REMOTE_USER",
+  "remote_python_command": "python",
+  "remote_expected_python_version": "3.9.7",
+  "remote_target_dir": "REMOTE_TARGET_DIR",
+  "remote_output_dir_name": "Output_Figures",
+  "remote_transfer_dir": "REMOTE_TRANSFER_DIR",
+  "ssh_key_path": ".codex_ssh/id_ed25519_remote_example",
+  "task_scheduler_name": "CodexRemoteBridge_Template",
+  "suppress_verbose_logs": true
+}

@@ -1,0 +1,15 @@
+config/config.local.json
+.codex_ssh/
+bridge/request.txt
+bridge/status.txt
+bridge/output.txt
+bridge/pid.txt
+bridge/heartbeat.txt
+Remote_Results/
+Python_codes/
+*.zip
+*.bak
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
